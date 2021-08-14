@@ -4,25 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Bem-vindo</title>
 </head>
 <body>
-    <h1>
-        Olá, Mundo!
-    </h1>
-    <h2>
-        Site para apresentação pessoal.
-    </h2>
-    <img src="imagens/foto.jpeg" width="300" height="300" alt="Foto Pessoal">
-    <span>
-        André Henrique dos Santos.
-    </span>
-    <span>
-        26 anos.
-    </span>
-    <span>
-        Taquarituba-SP.
-    </span>
+    <div class="teste">
+    <header>
+        <div class="titulo">
+            <h1>
+                Olá, Mundo!
+            </h1>
+            <h2>
+                Site para apresentação pessoal.
+            </h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="barra_nav">
+            <li class="item_nav">Página Inicial</li>
+            <li class="item_nav">Sobre</li>
+            <li class="item_nav">Contato</li>
+            <li>
+                <div class="barra_pesquisa">
+                    <input type="text" id="busca_text" placeholder="Pesquisar...">
+                    <img src="imagens/lupa.jpg" id="bota_busca" width="25" height="25">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="apresentacao">
+                <div>
+                    <img id="imagem" src="imagens/foto.jpeg" width="300" height="300" alt="Foto Pessoal">
+                </div>
+                <div class="dados">
+                    <p class="itens_dados">
+                        &there4; André Henrique dos Santos.
+                    </p><br>
+                    <p class="itens_dados">
+                        &there4; 26 anos.
+                    </p><br>
+                    <p class="itens_dados">
+                        &there4; Taquarituba-SP.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
     <h2>
         Informações Pessoais.
     </h2>
@@ -58,9 +87,12 @@
         <li>Video Games;</li>
         <li>Sertanejo e Rap.</li>
     </ul>
-    <a href="https://www.facebook.com/andrehenrique.santos.5/" target="_blank" >Facebook</a><br>
-    <a href="https://www.linkedin.com/in/andre-henrique-dos-santos-113bb11b1/" target="_blank" >Linkedin</a><br>
-    <a href="https://www.instagram.com/andrehesantos/" target="_blank" >Instagram</a><br>
-    <a href="https://github.com/andrehesantos" target="_blank" >GitHub</a><br>
+    <div class="rodape">
+        <a href="https://www.facebook.com/andrehenrique.santos.5/" target="_blank" >Facebook</a><br>
+        <a href="https://www.linkedin.com/in/andre-henrique-dos-santos-113bb11b1/" target="_blank" >Linkedin</a><br>
+        <a href="https://www.instagram.com/andrehesantos/" target="_blank" >Instagram</a><br>
+        <a href="https://github.com/andrehesantos" target="_blank" >GitHub</a><br>
+    </div> 
+    </div>   
 </body>
 </html>
